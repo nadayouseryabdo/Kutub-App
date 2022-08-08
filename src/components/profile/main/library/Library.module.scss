@@ -1,0 +1,5 @@
+@import "../../../../Variables.scss";
+.navContainer {
+  @include flexCenter;
+  height: 101px;
+}

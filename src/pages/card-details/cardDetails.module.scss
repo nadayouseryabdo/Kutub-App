@@ -1,0 +1,250 @@
+@import "../../Variables.scss";
+
+a {
+  text-decoration: none;
+}
+
+.cardContainer {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  background-size: 600px;
+  background-position: 100px;
+  border-radius: 50px;
+  align-items: center;
+  filter: drop-shadow(8px 4px 2px $primaryColor);
+  animation: comicsContainerAnimation;
+  animation-duration: 5sec;
+}
+.cardbg {
+  padding-top: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    $forthColor 30%,
+    rgba(255, 255, 255, 0)
+  );
+
+  padding: 50px;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+
+.cardimg img {
+  margin-right: 60px;
+  margin-left: 190px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  filter: drop-shadow(8px 4px 2px rgb(67, 67, 67));
+  animation: imganimation;
+  animation-duration: 10sec;
+}
+
+.description {
+  font-size: 16px;
+  width: 550px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 5px;
+
+}
+
+.description:hover {
+  white-space: pre-line;
+  overflow: visible;
+  text-overflow: ellipsis;
+}
+
+.icons {
+  padding-top: 10px;
+}
+.laptop {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/laptop.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.buy {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/smartphone.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.addtocart {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/addtocart.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.addtofav {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/addtofav.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.record {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/record.gif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.events {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/events.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.borrowlend{
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/borrowlend.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+.recordinfo,
+.addtocartinfo,
+.laptopinfo,
+.addtofavinfo,
+.eventsinfo,
+.borrowlendinfo,.buyinfo {
+  width: 0px;
+  height: 0px;
+  margin-left: 50px;
+  border-radius: 10px;
+  width: 150px;
+  color: black;
+}
+.borrowlend:hover,
+.addtocart:hover,
+.addtofav:hover,
+.laptop:hover,
+.events:hover,.buy:hover {
+  width: 50px;
+  height: 50px;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  transition: all 1s;
+}
+.record:hover{
+  width: 50px;
+  height: 50px;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  margin-bottom: 150px;
+  transition: all 1s;
+}
+.borrowlendparagraph,
+.addtocartparagraph,
+.addtofavparagraph,
+.laptopparagraph,
+.recordparagraph,
+.eventsparagraph,.buyparagraph {
+  font-size: 13px;
+  visibility: hidden;
+}
+
+.addtocart:hover .addtocartinfo,
+.addtofav:hover .addtofavinfo,
+.borrowlend:hover .borrowlendinfo,
+.laptop:hover .laptopinfo,
+.events:hover .eventsinfo,
+.buy:hover .buyinfo {
+  width: 150px;
+  height: 100px;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.record:hover .recordinfo
+{
+  width: 180px;
+  height: 200px;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.addtocart:hover .addtocartinfo,
+.addtofav:hover .addtofavinfo
+{
+  width: 150px;
+  height: 100px;
+  background-color: $primaryColor;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.borrowlend:hover  .borrowlendparagraph,
+.record:hover .recordparagraph,
+.events:hover .eventsparagraph,
+.laptop:hover .laptopparagraph,
+.addtofav:hover .addtofavparagraph,
+.addtocart:hover .addtocartparagraph,
+.buy:hover .buyparagraph {
+  visibility: visible;
+}
+
+
+.user {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/user\(1\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.user1 {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/user\(2\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+.points {
+  width: 30px;
+  height: 30px;
+  background-image: url("../../assets/icons/points.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+@keyframes imganimation {
+  0% {
+    top: -200px;
+  }
+  100% {
+    bottom: 500px;
+  }
+}

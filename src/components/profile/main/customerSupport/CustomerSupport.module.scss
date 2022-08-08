@@ -1,0 +1,9 @@
+@import "../../../../Variables.scss";
+.container {
+  background-image: url("../../../../assets/imgs/CS.png");
+  @include BG-Center-noRepeat-Cover;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
