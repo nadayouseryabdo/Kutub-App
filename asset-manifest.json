@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Kutub-App/static/css/main.ebbaefe4.css",
-    "main.js": "/Kutub-App/static/js/main.3e4ba190.js",
+    "main.js": "/Kutub-App/static/js/main.2c2af252.js",
     "static/media/readingCircle.png": "/Kutub-App/static/media/readingCircle.e846a22eb379d85c04dd.png",
     "static/media/airpodsRight.png": "/Kutub-App/static/media/airpodsRight.074aafe6de3c03538b51.png",
     "static/media/books.jpg": "/Kutub-App/static/media/books.1cb13f8591d6036aab6b.jpg",
@@ -41,10 +41,10 @@
     "static/media/profileBG.svg": "/Kutub-App/static/media/profileBG.ddbf6fbc3c8423e2b423.svg",
     "index.html": "/Kutub-App/index.html",
     "main.ebbaefe4.css.map": "/Kutub-App/static/css/main.ebbaefe4.css.map",
-    "main.3e4ba190.js.map": "/Kutub-App/static/js/main.3e4ba190.js.map"
+    "main.2c2af252.js.map": "/Kutub-App/static/js/main.2c2af252.js.map"
   },
   "entrypoints": [
     "static/css/main.ebbaefe4.css",
-    "static/js/main.3e4ba190.js"
+    "static/js/main.2c2af252.js"
   ]
 }
