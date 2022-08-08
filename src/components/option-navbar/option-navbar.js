@@ -17,7 +17,7 @@ const OptionNavBar = () => {
 	const navigate = useNavigate();
 	const signOut = () => {
 		localStorage.removeItem("data");
-		navigate("/");
+		navigate("/Kutub-App");
 	};
 	const [anchorElUser, setAnchorElUser] = React.useState(null);
 	const handleOpenUserMenu = (event) => {

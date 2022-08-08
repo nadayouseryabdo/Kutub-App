@@ -27,7 +27,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<IntroductionPage />} />
+        <Route path="/Kutub-App" element={<IntroductionPage />} />
         <Route path="/options" element={<Options />} />
         <Route path="/home" element={<HomePage />}>
           <Route path="books" element={<HomeBooks />} />

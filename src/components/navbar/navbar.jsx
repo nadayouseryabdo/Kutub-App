@@ -104,7 +104,7 @@ export default function NavBar() {
 			</MenuItem>
 			<MenuItem>
 				<IconButton>
-					<Link to="/" style={{ alignSelf: "center" }}>
+					<Link to="/Kutub-App" style={{ alignSelf: "center" }}>
 						<Button
 							className="signOut"
 							variant="contained"
